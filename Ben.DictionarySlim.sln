@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC05FF23-7BA1-41EC-A425-24CBB9D2A90D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ben.DictionarySlim", "src\Ben.DictionarySlim.csproj", "{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE6DBCCA-96E4-46CF-9A48-29EE3BF8B8B5} = {FC05FF23-7BA1-41EC-A425-24CBB9D2A90D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAD97A0A-5E4E-45A4-83A6-324285BCC8B4}
+	EndGlobalSection
+EndGlobal
