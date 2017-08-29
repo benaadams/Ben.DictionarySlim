@@ -11,9 +11,9 @@ namespace Ben.Collections
     {
         public struct Enumerator : IEnumerator<KeyValuePair<TKey, TValue>>
         {
-            Map<TKey, TValue> _map;
-            int index;
-            KeyValuePair<TKey, TValue> _current;
+            private readonly Map<TKey, TValue> _map;
+            private int index;
+            private KeyValuePair<TKey, TValue> _current;
 
             internal Enumerator(Map<TKey, TValue> map)
             {
